@@ -12,16 +12,16 @@ cask "font-yon" do
     strategy :github_latest
   end
 
-  font "YonFonts-#{version}/ttf/YonMono-Regular.ttf"
-  font "YonFonts-#{version}/ttf/YonMono-Bold.ttf"
-  font "YonFonts-#{version}/ttf/YonMonoFude-Regular.ttf"
-  font "YonFonts-#{version}/ttf/YonMonoFude-Bold.ttf"
-  font "YonFonts-#{version}/ttf/YonMonoMincho-Regular.ttf"
-  font "YonFonts-#{version}/ttf/YonMonoMincho-Bold.ttf"
-  font "YonFonts-#{version}/ttf/YonChochinText-Regular.ttf"
-  font "YonFonts-#{version}/ttf/YonChochinText-Bold.ttf"
-  font "YonFonts-#{version}/ttf/YonChochinDisplay-Regular.ttf"
-  font "YonFonts-#{version}/ttf/YonChochinDisplay-Bold.ttf"
-
   conflicts_with cask: "font-yon-mono"
+
+  font "YonFonts-#{version}/ttf/YonChochinDisplay-Bold.ttf"
+  font "YonFonts-#{version}/ttf/YonChochinDisplay-Regular.ttf"
+  font "YonFonts-#{version}/ttf/YonChochinText-Bold.ttf"
+  font "YonFonts-#{version}/ttf/YonChochinText-Regular.ttf"
+  font "YonFonts-#{version}/ttf/YonMono-Bold.ttf"
+  font "YonFonts-#{version}/ttf/YonMono-Regular.ttf"
+  font "YonFonts-#{version}/ttf/YonMonoFude-Bold.ttf"
+  font "YonFonts-#{version}/ttf/YonMonoFude-Regular.ttf"
+  font "YonFonts-#{version}/ttf/YonMonoMincho-Bold.ttf"
+  font "YonFonts-#{version}/ttf/YonMonoMincho-Regular.ttf"
 end

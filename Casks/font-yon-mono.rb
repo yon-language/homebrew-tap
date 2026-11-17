@@ -12,6 +12,6 @@ cask "font-yon-mono" do
     strategy :github_latest
   end
 
-  font "YonMono-#{version}/YonMono-Regular.ttf"
   font "YonMono-#{version}/YonMono-Bold.ttf"
+  font "YonMono-#{version}/YonMono-Regular.ttf"
 end
